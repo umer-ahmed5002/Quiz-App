@@ -3,19 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Todo List</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <h1 class="heading">Todo App</h1>
 
-    <input id="todoInput" type="text" placeholder="Enter todo hear">
+    <div class="container">
 
-    <button onclick="addTodo()">Add todo</button>
+        <h1 class="hadder">Quiz App</h1>
 
-    <div class="display-container"></div>
+        <div class="box">
 
+            <h3 id="question">Question sdkvjbhu kdhgfkhv</h3>
+
+            <ul>
+                <li>
+                    <input type="radio" class="options" name="answer" id="ans1">
+                    <label for="an1"  id="opt1"></label>
+                </li>
+
+                <li>
+                    <input type="radio" class="options" name="answer" id="ans2">
+                    <label for="an2"  id="opt2"></label>
+                </li>
+
+                <li>
+                    <input type="radio" class="options" name="answer" id="ans3">
+                    <label for="an3"  id="opt3"></label>
+                </li>
+
+                <li>
+                    <input type="radio" class="options" name="answer" id="ans4">
+                    <label for="an4"  id="opt4"></label>
+                </li>
+            </ul> 
+
+            <div id="btn">
+                <h3 id="showScore"></h3>
+                <button id="next" onclick="next()">next</button>
+            </div>
+
+        </div>
+
+    </div>
 
 
 
